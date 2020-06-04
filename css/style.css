@@ -1,0 +1,42 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+body {
+  margin: 0;
+  /*font-family: Open Sans;*/
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  /*font-family: Poppins;*/
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container {
+  margin: 50px;
+}
+/* Custom design below! */
+

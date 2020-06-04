@@ -1,0 +1,39 @@
+.container-cards {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  padding: 20px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card a {
+  color: rgb(9, 41, 104);
+}
+
+.card a:hover {
+  color: rgb(0, 56, 170);
+}
+
+@media (max-width: 720px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 20px auto;
+  }
+}

@@ -1,0 +1,22 @@
+.banner {
+  background-image: url("https://source.unsplash.com/SHA85I0G8K4");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner .container {
+  height: 200px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  margin: 0 0 50px 0;
+}
+

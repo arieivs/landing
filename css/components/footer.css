@@ -1,0 +1,33 @@
+footer {
+  background-color: #051942;
+  color: #FFEDD0;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+.social-media a {
+  color: #FFEDD0;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.social-media a:hover {
+  color: rgb(255, 211, 142);
+}
+
+footer p {
+  margin: 0;
+}
+
+.fa-heart {
+  color: rgb(255, 58, 58);
+}
